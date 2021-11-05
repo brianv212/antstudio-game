@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     // isGrounded
     public bool isGrounded;
+    public bool isInAir = false;
     public LayerMask groundLayers;
 
     public Animator animator;
@@ -21,6 +22,14 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f),
                                            new Vector2(transform.position.x + 0.5f, transform.position.y - 0.51f),
                                            groundLayers);
+        if (!isGrounded && isInAir == false) {
+            isInAir = !isGrounded;
+            animator.SetBool("isJumping", isInAir);
+        }
+        else if (isGrounded && isInAir == true) {
+            isInAir = !isGrounded;
+            animator.SetBool("isJumping", isInAir);
+        }
     }
 
     void PlayerMove() {
@@ -28,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         moveX = Input.GetAxis("Horizontal");
         animator.SetFloat("Speed", Mathf.Abs(moveX));
 
-        if (Input.GetButtonDown("Jump")) {
+        if (Input.GetButtonDown("Jump") && isGrounded) {
             Jump();
         }
 
