@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Bullet
+  - Background Music
   layers:
   - Default
   - TransparentFX
@@ -18,10 +20,10 @@ TagManager:
   - Walls
   - Node
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - Projectile (Enemy)
+  - Projectile (Player)
+  - Camera_Mechanics
+  - Dialogue
   - 
   - 
   - 

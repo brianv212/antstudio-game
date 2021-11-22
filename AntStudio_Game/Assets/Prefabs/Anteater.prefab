@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8993731644167597231}
   - component: {fileID: 8993731644167597224}
   - component: {fileID: 8993731644167597225}
-  - component: {fileID: 8993731644167597226}
   - component: {fileID: 8993731644167597230}
+  - component: {fileID: 8993731644167597226}
   - component: {fileID: 8993731644167597229}
   - component: {fileID: 1078575874669450258}
   - component: {fileID: 8993731644167597228}
@@ -110,6 +110,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!58 &8993731644167597230
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8993731644167597227}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.23
 --- !u!114 &8993731644167597226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,22 +146,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   animator: {fileID: 8993731644167597229}
---- !u!58 &8993731644167597230
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8993731644167597227}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.23
 --- !u!95 &8993731644167597229
 Animator:
   serializedVersion: 3
