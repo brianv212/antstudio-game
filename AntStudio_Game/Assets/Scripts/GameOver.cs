@@ -11,12 +11,10 @@ public class GameOver : MonoBehaviour
     }
 
     public void RestartButton () {
-        Debug.Log("Restarting");
         SceneManager.LoadScene(sLevelToLoad);
     }
 
     public void ExitButton() {
-        Debug.Log("Returning to Menu");
         SceneManager.LoadScene("Menu");
     }
 }

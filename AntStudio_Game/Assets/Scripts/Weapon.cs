@@ -6,11 +6,18 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public bool cooldown = false;
+
+    void Cooldown() {
+        cooldown = false;
+    }
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetButtonDown("Fire1")) {
+        if (Input.GetButtonDown("Fire1") && !cooldown) {
             Shoot();
+            cooldown = true;
+            Invoke("Cooldown", 0.25f);
         }
     }
 

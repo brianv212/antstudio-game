@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2d09680c9cb8fa4fa85562df5d8613e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mustPatrol: 0
+  mustPatrol: 1
   rb: {fileID: 6635261700663027701}
   walkSpeed: 50
   groundCheckPos: {fileID: 6635261702292861627}
@@ -188,6 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  facingLeft: 0
 --- !u!95 &3632745309163023078
 Animator:
   serializedVersion: 3

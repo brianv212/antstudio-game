@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Bullet
   - Background Music
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Projectile (Player)
   - Camera_Mechanics
   - Dialogue
-  - 
+  - SpeedUp
   - 
   - 
   - 

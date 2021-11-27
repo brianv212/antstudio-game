@@ -19,8 +19,6 @@ public class AIPatrol : MonoBehaviour
 
     void Start()
     {
-        mustPatrol = true;
-
     }
 
     // Update is called once per frame
@@ -49,5 +47,9 @@ public class AIPatrol : MonoBehaviour
         transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
         walkSpeed *= -1;
         mustPatrol = true;
+    }
+
+    public void SpeedUp(float speed) {
+        walkSpeed += speed;
     }
 }
