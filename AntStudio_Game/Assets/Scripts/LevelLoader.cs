@@ -42,7 +42,6 @@ public class LevelLoader : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         GameObject collisionGameObject = collision.gameObject;
-        Debug.Log("Collision");
 
         if (collisionGameObject.name == "Anteater") {
              playerDetected = true;
@@ -51,7 +50,6 @@ public class LevelLoader : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision) {
         GameObject collisionGameObject = collision.gameObject;
-        Debug.Log("Gone");
 
         if (collisionGameObject.name == "Anteater") {
              playerDetected = false;
