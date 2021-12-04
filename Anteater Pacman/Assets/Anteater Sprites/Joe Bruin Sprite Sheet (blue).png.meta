@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: c52b851f7c0c46a4cb8badbbf41210ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -635934340216736260
+    second: Joe Bruin Sprite Sheet (blue)_0
+  - first:
+      213: 7258412929793536106
+    second: Joe Bruin Sprite Sheet (blue)_1
+  - first:
+      213: -2073455526117225191
+    second: Joe Bruin Sprite Sheet (blue)_2
+  - first:
+      213: -8764239380819651611
+    second: Joe Bruin Sprite Sheet (blue)_3
+  - first:
+      213: 6429924151099245146
+    second: Joe Bruin Sprite Sheet (blue)_4
+  - first:
+      213: -7213342934237246334
+    second: Joe Bruin Sprite Sheet (blue)_5
+  - first:
+      213: -3951234937545333647
+    second: Joe Bruin Sprite Sheet (blue)_6
+  - first:
+      213: 4614746737021273816
+    second: Joe Bruin Sprite Sheet (blue)_7
+  - first:
+      213: -6854978521820453539
+    second: Joe Bruin Sprite Sheet (blue)_8
+  - first:
+      213: -3055757982417805097
+    second: Joe Bruin Sprite Sheet (blue)_9
+  - first:
+      213: -3506832677714504219
+    second: Joe Bruin Sprite Sheet (blue)_10
+  - first:
+      213: -8768203508345480997
+    second: Joe Bruin Sprite Sheet (blue)_11
+  - first:
+      213: -7376796448017051274
+    second: Joe Bruin Sprite Sheet (blue)_12
+  - first:
+      213: 5924580675296315565
+    second: Joe Bruin Sprite Sheet (blue)_13
+  - first:
+      213: 7954598957996200150
+    second: Joe Bruin Sprite Sheet (blue)_14
+  - first:
+      213: 6761811317304567280
+    second: Joe Bruin Sprite Sheet (blue)_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 281
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5b8ee3615bc27f0800000000000000
+      internalID: -635934340216736260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 281
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6032795a101bb460800000000000000
+      internalID: 7258412929793536106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 281
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d46344f2b9933e0800000000000000
+      internalID: -2073455526117225191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 281
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e351c3d7ba2f5680800000000000000
+      internalID: -8764239380819651611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 193
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52c9feb2fdab3950800000000000000
+      internalID: 6429924151099245146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 193
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c07b9b1de05eb90800000000000000
+      internalID: -7213342934237246334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 193
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1746f7342c46a29c0800000000000000
+      internalID: -3951234937545333647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 193
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6cb8415bfda0040800000000000000
+      internalID: 4614746737021273816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 105
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55a5f78a593ed0a0800000000000000
+      internalID: -6854978521820453539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 105
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d02c6a1e44c795d0800000000000000
+      internalID: -3055757982417805097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 105
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e55816724a355fc0800000000000000
+      internalID: -3506832677714504219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 105
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8dbb67d55115680800000000000000
+      internalID: -8768203508345480997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 17
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6719497e6ba50a990800000000000000
+      internalID: -7376796448017051274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 17
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da84e220cb6583250800000000000000
+      internalID: 5924580675296315565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 17
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d05e066b99646e60800000000000000
+      internalID: 7954598957996200150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joe Bruin Sprite Sheet (blue)_15
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 17
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5a7264197c6dd50800000000000000
+      internalID: 6761811317304567280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
