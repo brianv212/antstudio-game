@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 9963116771470c34f97b1fed07f73a6c
+  - enabled: 1
     path: Assets/Scenes/LevelSelection.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/UCSD.unity
     guid: c656b974d2ae7c54abbb8b06ab078977
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 9963116771470c34f97b1fed07f73a6c
   - enabled: 1
     path: Assets/Scenes/UCSD_Boss.unity
     guid: 8e6109f7d1023864eaf0ff4c29f7bd9a
@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: cc760d0d766c6534a96044ae2d6c4c5d
+  - enabled: 1
+    path: Assets/Scenes/Pacman.unity
+    guid: 08f2d05c42056644294137d723a6b3e0
+  - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: 8e3f0c65f2121a04c9a44f98e5846a38
   m_configObjects: {}

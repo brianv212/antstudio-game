@@ -16,6 +16,7 @@ public class Sammy_Dialogue : MonoBehaviour
     private GameObject y;
     private GameObject y_img;
     private GameObject sammy;
+    private GameObject peter;
 
     public bool anteaterSpeaksFirst;
 
@@ -48,7 +49,21 @@ public class Sammy_Dialogue : MonoBehaviour
         }
         sammy = GameObject.Find("Sammy_Slug");
         sammy.SetActive(false);
+        peter = GameObject.Find("Anteater");
+        peter.GetComponent<PlayerMovement>().enabled = false;
+        //peter.SetActive(false);
+
+        
     }
+
+/*    private void Update()
+    {
+        if (Input.anyKey)
+        {
+            End_Of_Dialogue();
+        }
+        
+    }*/
 
     public void Switch_Speaker() {
         // For the anteater
@@ -75,7 +90,17 @@ public class Sammy_Dialogue : MonoBehaviour
     public void End_Of_Dialogue() {
         sammy.SetActive(true);
 
-        GameObject.Find("Boss_Dialogue").SetActive(false);
+        try
+        {
+            GameObject.Find("Boss_Dialogue").SetActive(false);
+        }
+        catch
+        {
+            GameObject.Find("End_Dialogue").SetActive(false);
+            sammy.GetComponent<AIPatrol>().enabled = false;
+        }
+        
+        peter.GetComponent<PlayerMovement>().enabled = true;
         // gameObject.SetActive(false);
     }
 

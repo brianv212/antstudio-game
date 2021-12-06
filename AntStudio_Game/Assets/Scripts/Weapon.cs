@@ -14,7 +14,7 @@ public class Weapon : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetButtonDown("Fire1") && !cooldown) {
+        if ((Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.RightControl)) && !cooldown) {
             Shoot();
             cooldown = true;
             Invoke("Cooldown", 0.25f);

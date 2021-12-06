@@ -10804,7 +10804,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.820895, y: -7.672, z: -10}
+  m_LocalPosition: {x: -4.8176265, y: -7.672, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11183,9 +11183,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002727208}
     m_Modifications:
+    - target: {fileID: 1779507819615036160, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_Text
-      value: Jump with SPACEBAR!
+      value: "You helped us overcome whatever was controlling us! \nJump with SPACEBAR
+        to overcome your own obstacles!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1779507820088277409, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_Name
@@ -11278,6 +11291,26 @@ PrefabInstance:
     - target: {fileID: 1779507820088277422, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7065492279347296810, guid: 4ea406906ac814c4da505f32eb75977f, type: 3}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174705, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Text
+      value: Oski
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 949d8a0c32d740042896b309f36da873, type: 3}
@@ -11793,9 +11826,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002727208}
     m_Modifications:
+    - target: {fileID: 1779507819615036160, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_Text
-      value: Shoot enemies with CTRL!
+      value: "We may be back to normal, but the others may have also been corrupted...
+        \nShoot them and their minions with LEFT MOUSE-CLICK or CTRL!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1779507820088277409, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_Name
@@ -11888,6 +11934,26 @@ PrefabInstance:
     - target: {fileID: 1779507820088277422, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2015750494556391606, guid: c061a72a25a190a40886b596d4bf2657, type: 3}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174705, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Text
+      value: Scotty
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 949d8a0c32d740042896b309f36da873, type: 3}
@@ -12310,7 +12376,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245091833}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.820895, y: -7.672, z: -10}
+  m_LocalPosition: {x: -4.8176265, y: -7.672, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1203217850}
@@ -12467,9 +12533,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002727208}
     m_Modifications:
+    - target: {fileID: 1779507819615036160, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_Text
-      value: Interact with door by pressing the UP key!
+      value: 'You must check on the others immediately! You can find the other UCs
+        through this door.
+
+        Just press the UP or W key to go through it and
+        begin your journey!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 189
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1779507820088277409, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_Name
@@ -12562,6 +12648,26 @@ PrefabInstance:
     - target: {fileID: 1779507820088277422, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4976184906077730578, guid: 5fd00c4578e72ac4b9209100eb3b43d7, type: 3}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174705, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Text
+      value: Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 949d8a0c32d740042896b309f36da873, type: 3}
@@ -13049,12 +13155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 840, y: 520}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -13191,6 +13297,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002727208}
     m_Modifications:
+    - target: {fileID: 1779507819615036160, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Text
+      value: 'Thank you for freeing us! We have no idea what happened...
+
+        Move
+        with the ARROW KEYS or WASD to check on the others!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507819615036161, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1779507820088277409, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_Name
       value: Movement
@@ -13282,6 +13407,26 @@ PrefabInstance:
     - target: {fileID: 1779507820088277422, guid: 949d8a0c32d740042896b309f36da873, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3007496782140477772, guid: 0e02a694110a6d44dbf1bb44aed89459, type: 3}
+    - target: {fileID: 1779507820660930915, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174705, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_Text
+      value: Joe Bruin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779507821100174718, guid: 949d8a0c32d740042896b309f36da873, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 949d8a0c32d740042896b309f36da873, type: 3}

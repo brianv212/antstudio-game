@@ -46,9 +46,16 @@ public class Triton_Dialogue : MonoBehaviour
             x.SetActive(false);
             x_img.SetActive(false);   
         }
-        triton = GameObject.Find("Triton");
 
-        triton.SetActive(false);
+        try
+        {
+            triton = GameObject.Find("Triton");
+            triton.SetActive(false);
+        }
+        catch
+        {
+            Debug.Log("Triton-b-gone!");
+        }
     }
 
     public void Switch_Speaker() {
@@ -74,9 +81,16 @@ public class Triton_Dialogue : MonoBehaviour
     }
 
     public void End_Of_Dialogue() {
-        triton.SetActive(true);
-
-        GameObject.Find("Boss_Dialogue").SetActive(false);
+        try
+        {
+            triton.SetActive(true);
+            GameObject.Find("Boss_Dialogue").SetActive(false);
+        }
+        catch
+        {
+            Debug.Log("Triton is gone!");
+            GameObject.Find("End_Dialogue").SetActive(false);
+        }
         // gameObject.SetActive(false);
     }
 

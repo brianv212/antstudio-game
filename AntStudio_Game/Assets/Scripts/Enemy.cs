@@ -17,13 +17,21 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage) {
         health -= damage;
 
-        if (health <= 0) {
+        if (name == "Sammy_Slug")
+        {
+            Debug.Log("sammy shot");
+        }
+        else if (health <= 0) {
             Die();
         }
     }
 
     void Die() {
         // Instantiate(deathEffect, transform.position, Quaternion.identity);
+        if (name == "Triton")
+        {
+            GameObject.Find("End").GetComponent<BoxCollider2D>().enabled = true;
+        }
         Destroy(gameObject);
     }
 }

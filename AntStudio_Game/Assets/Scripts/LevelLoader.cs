@@ -35,7 +35,7 @@ public class LevelLoader : MonoBehaviour
         if (!thePlayer) {
             thePlayer = FindObjectOfType<PlayerMovement>();
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow) && playerDetected) {
+        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && playerDetected) {
             LoadScene();
         }
     }
